@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7fd1f5d.css",
+    "main.css": "/static/css/main.84e5a579.css",
     "main.js": "/static/js/main.b6375484.js",
     "static/media/song.png": "/static/media/song.ee539ce2ade7efb12685.png",
     "static/media/Mess.png": "/static/media/Mess.9a3e6d452dc5107ebaef.png",
@@ -13,11 +13,11 @@
     "static/media/siddhesh_resume.pdf": "/static/media/siddhesh_resume.aaef50daf716c3fc71a6.pdf",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
-    "main.e7fd1f5d.css.map": "/static/css/main.e7fd1f5d.css.map",
+    "main.84e5a579.css.map": "/static/css/main.84e5a579.css.map",
     "main.b6375484.js.map": "/static/js/main.b6375484.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7fd1f5d.css",
+    "static/css/main.84e5a579.css",
     "static/js/main.b6375484.js"
   ]
 }
