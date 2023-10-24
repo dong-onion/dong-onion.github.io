@@ -1,13 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bc8db31.css",
-    "main.js": "/static/js/main.ab533111.js",
-    "static/media/song.png": "/static/media/song.ee539ce2ade7efb12685.png",
-    "static/media/Mess.png": "/static/media/Mess.9a3e6d452dc5107ebaef.png",
-    "static/media/advise.png": "/static/media/advise.7c27cb79f9d03782c40e.png",
-    "static/media/restcountries.jpg": "/static/media/restcountries.5aa0a69978cc2d883e3b.jpg",
-    "static/media/Chat_me.png": "/static/media/Chat_me.412ea7b4f6924f887749.png",
-    "static/media/spacetourism.jpg": "/static/media/spacetourism.0bf7257c65a99597f087.jpg",
+    "main.css": "/static/css/main.85126f9b.css",
+    "main.js": "/static/js/main.15e8dd68.js",
     "static/media/linkbookServiceImg3.png": "/static/media/linkbookServiceImg3.505dd2d4350333e53cbd.png",
     "static/media/linkbookServiceImg4.png": "/static/media/linkbookServiceImg4.b4c0e622bb0be7f23a32.png",
     "static/media/pacemakerServiceImg2.png": "/static/media/pacemakerServiceImg2.c41cc3d2ee71205a0631.png",
@@ -15,21 +9,18 @@
     "static/media/pacemakerServiceImg7.png": "/static/media/pacemakerServiceImg7.b5e8a3ad9a5f04af3df4.png",
     "static/media/linkbookServiceImg2.png": "/static/media/linkbookServiceImg2.5f3bec480c434a5166c5.png",
     "static/media/pacemakerServiceImg3.png": "/static/media/pacemakerServiceImg3.2866f693635cf952750a.png",
-    "static/media/pacemakerHeaderImage.png": "/static/media/pacemakerHeaderImage.3904d9425d27f82fc68b.png",
+    "static/media/pacemakerHeaderImage.png": "/static/media/pacemakerHeaderImage.a0c28f7bcd06b6d56dd5.png",
     "static/media/linkbookServiceImg6.png": "/static/media/linkbookServiceImg6.c485cb14f29e7a761181.png",
     "static/media/pacemakerServiceImg6.png": "/static/media/pacemakerServiceImg6.612d0a09db09008f8e8e.png",
     "static/media/pacemakerServiceImg4.png": "/static/media/pacemakerServiceImg4.9b7ebd43e63493dac2dd.png",
     "static/media/pacemakerServiceImg5.png": "/static/media/pacemakerServiceImg5.00ad3752c656830792b9.png",
-    "static/media/s3.jpg": "/static/media/s3.b2a59160f3284474a734.jpg",
     "static/media/healthtrainerServiceImg2.png": "/static/media/healthtrainerServiceImg2.c1f3d244d6f6595aa74d.png",
     "static/media/healthtrainerServiceImg1.png": "/static/media/healthtrainerServiceImg1.8a0bb651fa11d1f26d02.png",
     "static/media/linkbookServiceImg1.png": "/static/media/linkbookServiceImg1.21d1b33a4b9830bb6077.png",
     "static/media/healthtrainerServiceImg4.png": "/static/media/healthtrainerServiceImg4.f800b55ebbb24d8ca9ce.png",
-    "static/media/todo.jpg": "/static/media/todo.393d0fe27b7804b4b77f.jpg",
     "static/media/healthtrainerServiceImg3.png": "/static/media/healthtrainerServiceImg3.47ba18ec6b046de347ba.png",
     "static/media/profile.jpeg": "/static/media/profile.4ae6f02fa51d1e34f1f3.jpeg",
     "static/media/pacemakerServiceImg1.png": "/static/media/pacemakerServiceImg1.b5fa512b4a26a86e4ad0.png",
-    "static/media/siddhesh_resume.pdf": "/static/media/siddhesh_resume.aaef50daf716c3fc71a6.pdf",
     "static/media/linkbookServiceImg8.png": "/static/media/linkbookServiceImg8.7f79697aa59e576038af.png",
     "static/media/linkbookServiceImg7.png": "/static/media/linkbookServiceImg7.4803aa8e80697042f631.png",
     "static/media/linkbookServiceImg9.png": "/static/media/linkbookServiceImg9.d8cfca4fe42967f3897b.png",
@@ -37,11 +28,11 @@
     "static/media/reactQuery.png": "/static/media/reactQuery.90f4864355d5b17c85de.png",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
-    "main.2bc8db31.css.map": "/static/css/main.2bc8db31.css.map",
-    "main.ab533111.js.map": "/static/js/main.ab533111.js.map"
+    "main.85126f9b.css.map": "/static/css/main.85126f9b.css.map",
+    "main.15e8dd68.js.map": "/static/js/main.15e8dd68.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bc8db31.css",
-    "static/js/main.ab533111.js"
+    "static/css/main.85126f9b.css",
+    "static/js/main.15e8dd68.js"
   ]
 }
