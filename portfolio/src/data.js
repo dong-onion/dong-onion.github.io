@@ -1,10 +1,11 @@
 import linkbookImg from './assets/linkbookImages/linkbookServiceImg4.png'
 import pacemakerImg from './assets/portfolioImages/pacemakerHeaderImage.png'
 import healthTrainerImg from './assets/portfolioImages/muscle.png'
+import gamebuImg from './assets/portfolioImages/gamebuHeaderImage.png'
 
 const ProjectsData = [
   {
-    id: 'rest-countries',
+    id: '1',
     img: pacemakerImg,
     name: '페이스메이커',
     stack: [' Typescript ', ' React Native ', ' React Query ', ' Firebase '],
@@ -13,7 +14,7 @@ const ProjectsData = [
       '가입자 500명, Weekly Active User 50명이 있는 러닝 SNS 어플리케이션입니다.',
   },
   {
-    id: 'rest-countries',
+    id: '2',
     img: linkbookImg,
     name: '링북',
     stack: [
@@ -28,7 +29,15 @@ const ProjectsData = [
   },
 
   {
-    id: 'rest-countries',
+    id: '3',
+    img: gamebuImg,
+    name: '껨부',
+    stack: [' React ', ' Javascript ', ' React Router ', ' MUI '],
+    link: '/projects/gamebu',
+    description: '여러 게임과 콘텐츠를 함께 즐길 사람을 찾는 웹서비스입니다.',
+  },
+  {
+    id: '4',
     img: healthTrainerImg,
     name: '헬스 트레이너',
     stack: [' React Native ', ' Javascript ', ' Redux toolkit '],

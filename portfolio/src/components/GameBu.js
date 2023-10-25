@@ -1,7 +1,6 @@
 import React from 'react'
-import './HealthTrainer.css'
 
-const HealthTrainer = () => {
+const GameBu = () => {
   const imageFiles = Array.from(
     { length: 4 },
     (_, index) => `healthtrainerServiceImg${index + 1}.png`
@@ -10,34 +9,43 @@ const HealthTrainer = () => {
   return (
     <div className="container-fluid bg-light p-5 min-vh-100">
       <div className="row">
-        <h1>💪 헬스트레이너</h1>
+        <h1>🏃 껨부</h1>
         <p>
           👉 Github:{' '}
           <a
             className="link"
             target="_blank"
-            href="https://github.com/dong-onion/HT-Frontend"
+            href="https://github.com/dong-onion/Gamebu"
           >
-            https://github.com/dong-onion/HT-Frontend
+            https://github.com/dong-onion/Gamebu
           </a>
         </p>
         <h2>🚀 서비스 소개</h2>
-        <p>운동루틴과 기록을 공유하는 운동 커뮤니티 어플리케이션입니다.</p>
         <p>
-          혼자서 운동을 꾸준히 하는 일은 쉽지 않은데, 운동을 할 때도 다른
-          사람들과 피드백을 주고받을 수 있다면 사용자들이 꾸준한 운동 습관을
-          만드는데 도움을 줄 수 있을 것 같아서 개발을 시작했습니다.
+          GameBu는 여러 게임과 콘텐츠를 함께 즐길 사람을 찾는 웹서비스입니다.
         </p>
-        <p>운동부위와 운동종류를 선택해 루틴을 만들수 있습니다.</p>
         <p>
-          캘린더를 활용해 해당 일의 운동기록을 살펴보고 기록을 저장 할수
-          있습니다.
+          껨부는 기존의 한 게임의 특정 콘텐츠의 유저만을 모집하는 것이 아닌,
+          여러 게임, 여러 콘텐츠를 함께 즐길 유저를 모집하는 종합 게임 파티원
+          구인 서비스를 목표로 합니다.
         </p>
-        <p>타이머를 활용해 운동시간을 기록 할 수 있습니다.</p>
-        <p>그룹활동을 통해 그룹원 끼리 운동기록을 공유 할 수 있습니다.</p>
+        <p>
+          멤버 모집을 위해서 해당하는 게임의 채널에 모집 포스트를 작성할 수
+          있고, 사용자는 포스트에 댓글을 통해서 이 모집에 참여할 수 있습니다.
+        </p>
+        <p>
+          통합 검색 페이지에서 키워드를 검색하면 키워드에 해당하는 사용자와
+          포스트 목록을 볼 수 있습니다. 별도의 필터를 적용해서 사용자가 원하는
+          것과 연관성이 높은 사용자 또는 포스트를 제공할 수 있습니다.
+        </p>
+        <p>
+          사용자가 자신의 관심사에 맞는 채널을 즐겨찾기에 추가할 수 있습니다.
+          이렇게 추가한 즐겨찾기는 좌측 상단의 햄버거 메뉴를 사용하여 바로
+          접근이 가능하며, 채널 목록에서도 즐겨찾기한 채널이 상단에 표시됩니다.
+        </p>
         <h2>⚒️ 기술 스택</h2>
         <p className="skills">
-          Javascript React-Native Redux-Toolkit Redux-Thunk
+          Javascript React React-Router Emotion Storybook
         </p>
       </div>
       <h2>🧑‍💻 개발 내용</h2>
@@ -99,4 +107,4 @@ const HealthTrainer = () => {
   )
 }
 
-export default HealthTrainer
+export default GameBu

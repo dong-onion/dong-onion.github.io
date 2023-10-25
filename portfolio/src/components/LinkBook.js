@@ -38,7 +38,6 @@ const LinkBook = () => {
           북마크 정렬 및 필터링, 댓글, 좋아요, Chrome Extension 을 통한 북마크
           등록이 가능합니다.
         </p>
-        <p>사용자가 달리기를 시작하면 친구들에게 알림을 줍니다. </p>
         <h2>⚒️ 기술 스택</h2>
         <p className="skills">
           Typescript Next.js Styled-Component Chrome api Context api
