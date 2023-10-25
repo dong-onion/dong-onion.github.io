@@ -1,0 +1,7 @@
+export const pacemakerServiceImg1 = require('./pacemakerServiceImg1.png')
+export const pacemakerServiceImg2 = require('./pacemakerServiceImg2.png')
+export const pacemakerServiceImg3 = require('./pacemakerServiceImg3.png')
+export const pacemakerServiceImg4 = require('./pacemakerServiceImg4.png')
+export const pacemakerServiceImg5 = require('./pacemakerServiceImg5.png')
+export const pacemakerServiceImg6 = require('./pacemakerServiceImg6.png')
+export const pacemakerServiceImg7 = require('./pacemakerServiceImg7.png')
