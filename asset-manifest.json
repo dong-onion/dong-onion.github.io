@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.85126f9b.css",
-    "main.js": "/static/js/main.15e8dd68.js",
+    "main.js": "/static/js/main.6e039583.js",
     "static/media/linkbookServiceImg3.png": "/static/media/linkbookServiceImg3.505dd2d4350333e53cbd.png",
     "static/media/linkbookServiceImg4.png": "/static/media/linkbookServiceImg4.b4c0e622bb0be7f23a32.png",
     "static/media/pacemakerServiceImg2.png": "/static/media/pacemakerServiceImg2.c41cc3d2ee71205a0631.png",
     "static/media/linkbookServiceImg5.png": "/static/media/linkbookServiceImg5.5786f152510503c839f6.png",
+    "static/media/gamebuHeaderImage.png": "/static/media/gamebuHeaderImage.fbe5f7b843ad840f569c.png",
     "static/media/pacemakerServiceImg7.png": "/static/media/pacemakerServiceImg7.b5e8a3ad9a5f04af3df4.png",
     "static/media/linkbookServiceImg2.png": "/static/media/linkbookServiceImg2.5f3bec480c434a5166c5.png",
     "static/media/pacemakerServiceImg3.png": "/static/media/pacemakerServiceImg3.2866f693635cf952750a.png",
@@ -16,23 +17,30 @@
     "static/media/pacemakerServiceImg5.png": "/static/media/pacemakerServiceImg5.00ad3752c656830792b9.png",
     "static/media/healthtrainerServiceImg2.png": "/static/media/healthtrainerServiceImg2.c1f3d244d6f6595aa74d.png",
     "static/media/healthtrainerServiceImg1.png": "/static/media/healthtrainerServiceImg1.8a0bb651fa11d1f26d02.png",
+    "static/media/gamebuServiceImg6.png": "/static/media/gamebuServiceImg6.c97123eabfebbf758271.png",
     "static/media/linkbookServiceImg1.png": "/static/media/linkbookServiceImg1.21d1b33a4b9830bb6077.png",
     "static/media/healthtrainerServiceImg4.png": "/static/media/healthtrainerServiceImg4.f800b55ebbb24d8ca9ce.png",
     "static/media/healthtrainerServiceImg3.png": "/static/media/healthtrainerServiceImg3.47ba18ec6b046de347ba.png",
     "static/media/profile.jpeg": "/static/media/profile.4ae6f02fa51d1e34f1f3.jpeg",
     "static/media/pacemakerServiceImg1.png": "/static/media/pacemakerServiceImg1.b5fa512b4a26a86e4ad0.png",
+    "static/media/gamebuServiceImg4.png": "/static/media/gamebuServiceImg4.4992ceca2fe662619c54.png",
     "static/media/linkbookServiceImg8.png": "/static/media/linkbookServiceImg8.7f79697aa59e576038af.png",
+    "static/media/gamebuServiceImg1.png": "/static/media/gamebuServiceImg1.02df2013e73f118c2548.png",
     "static/media/linkbookServiceImg7.png": "/static/media/linkbookServiceImg7.4803aa8e80697042f631.png",
     "static/media/linkbookServiceImg9.png": "/static/media/linkbookServiceImg9.d8cfca4fe42967f3897b.png",
+    "static/media/gamebuServiceImg2.png": "/static/media/gamebuServiceImg2.65bee6ac1ce6055c23df.png",
     "static/media/linkbookServiceImg10.png": "/static/media/linkbookServiceImg10.f4c1d7c157695f9fea1d.png",
+    "static/media/gamebuServiceImg7.png": "/static/media/gamebuServiceImg7.3b521f7e9ddd98cdf002.png",
+    "static/media/gamebuServiceImg3.png": "/static/media/gamebuServiceImg3.a303befb143a867fe23c.png",
+    "static/media/gamebuServiceImg5.png": "/static/media/gamebuServiceImg5.e12856cf3483a2a4f992.png",
     "static/media/reactQuery.png": "/static/media/reactQuery.90f4864355d5b17c85de.png",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
     "main.85126f9b.css.map": "/static/css/main.85126f9b.css.map",
-    "main.15e8dd68.js.map": "/static/js/main.15e8dd68.js.map"
+    "main.6e039583.js.map": "/static/js/main.6e039583.js.map"
   },
   "entrypoints": [
     "static/css/main.85126f9b.css",
-    "static/js/main.15e8dd68.js"
+    "static/js/main.6e039583.js"
   ]
 }
