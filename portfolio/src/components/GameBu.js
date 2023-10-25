@@ -2,14 +2,24 @@ import React from 'react'
 
 const GameBu = () => {
   const imageFiles = Array.from(
-    { length: 4 },
-    (_, index) => `healthtrainerServiceImg${index + 1}.png`
+    { length: 8 },
+    (_, index) => `gamebuServiceImg${index + 1}.png`
   )
 
   return (
     <div className="container-fluid bg-light p-5 min-vh-100">
       <div className="row">
         <h1>🏃 껨부</h1>
+        <p>
+          👉 Landing Page URL (현재는 서버가 중단된 상태입니다) :{' '}
+          <a
+            className="link"
+            target="_blank"
+            href="https://gamebu-dh2mrhd61-team-yohan.vercel.app/"
+          >
+            https://gamebu-dh2mrhd61-team-yohan.vercel.app/
+          </a>
+        </p>
         <p>
           👉 Github:{' '}
           <a
@@ -49,21 +59,16 @@ const GameBu = () => {
         </p>
       </div>
       <h2>🧑‍💻 개발 내용</h2>
-      <h3>1. 로그인</h3>
-      <p>
-        splash screen에서 토큰 유효성을 판별하여 login screen 과 main screen으로
-        화면 이동
-      </p>
-      <p>로그인시 AsyncStorage 에 토큰을 저장하여 자동로그인기능 구현</p>
-      <h3>2. 운동리스트 작성 및 관리 페이지</h3>
+      <h3>1. 채널 페이지</h3>
       <p>화면 마크업 작업</p>
-      <p>
-        redux toolkit을 사용하여 운동루틴, 리스트를 전역상태관리 + thunk를
-        사용하여 비동기 처리
-      </p>
-      <h3>3. 프로필 화면</h3>
-      <p>base64를 통한 이미지 인코딩</p>
-      <p>redux toolkit을 활용한 유저정보 전역 상태관리</p>
+      <p>무한스크롤 및 낙관적 업데이트를 통한 유저 경험 개선</p>
+      <p>api 연동을 통한 데이터 바인딩 및 태그, 인기순 등의 필터링</p>
+      <h3>2. 포스트 디테일 페이지</h3>
+      <p>화면 마크업 작업</p>
+      <p>댓글 기능 구현, 좋아요,댓글에 따른 낙관적 업데이트 적용</p>
+      <h3>3. 공통 컴포넌트 작업, 공통 함수 생성</h3>
+      <p>storybook을 활용하여 카드, 태그, 배지 등 공통 컴포넌트 작업</p>
+      <p>각각의 기능별로 디렉토리를 구별하여 api 함수 생성및 util 함수 생성</p>
 
       <h2>📷 서비스 화면</h2>
       <div
@@ -76,33 +81,34 @@ const GameBu = () => {
           <img
             key={i}
             style={{ maxWidth: 200, padding: '10px 10px' }}
-            src={require(`../assets/healthtrainerImages/${fileName}`)}
+            src={require(`../assets/gamebuImages/${fileName}`)}
           />
         ))}
       </div>
       <h2>📈 성장 경험</h2>
-      <h3>Git 활용</h3>
+      <h3>성능 최적화</h3>
       <p>
-        처음으로 다른 사람들과 함께 만들어 본 서비스였습니다. Git을 이용하여
-        소스코드를 관리하고 Pull Request를 작성하여 협업했습니다. 그 과정에서
-        git cherry-pick, git rebase 등 전반적인 Git에 대한 이해를 할 수 있었고,
-        GitHub를 통한 프로젝트관리 방법을 이해할 수 있었습니다.
-      </p>
-      <h3>상태관리</h3>
-      <p>
-        상태관리를 위해 Redux와 Redux Toolkit을 사용했습니다. Redux를 통해
-        어플리케이션의 상태를 예측 가능하게 관리할 수 있었고, Redux의 단점은
-        Redux Toolkit을 통해서 많이 해결할 수 있었습니다. 또한, React의 상태
-        관리 철학에 대해서 많은 고민을 해볼 수 있는 기회였습니다.
+        useMemo와 useCallback 을 활용하여 값과 함수를 메모하여 애플리케이션
+        성능을 최적화하기 위해 시도했습니다.
       </p>
       <p>
-        더불어 이 프로젝트에서 처음으로 React를 이용해서 서비스를 만들어
-        보았습니다. 다양한 라이브러리를 사용해보면서 서비스를 만드는 일의
-        즐거움을 느낄 수 있었습니다.
+        그 과정에서 useMemo와 useCallback 의 차이를 알게 되었고, 리렌더링과
+        종속성에 관한 개념을 정리 할 수 있었습니다.
       </p>
+      <h3>디자인 패턴</h3>
+      <p>
+        Container-Presenter 패턴을 적용시켜 비즈니스 로직을 다루는 컴포넌트와
+        prop을 내려받고 UI로직을 다루는 컴포넌트를 분리하여 적용시켰습니다.
+      </p>
+      <p>
+        그 과정에서 prop drilling이 발생하여 코드 가독성이 저하되는 문제를
+        겪었고 react의 context api를 사용하여 해당 이슈를 해결했습니다.
+      </p>
+      <p></p>
       <h2>ℹ️ INFO</h2>
-      <p>기간 : 2022.01 ~ 2022.02</p>
-      <p>팀 구성 : 프론트엔드 2명, 백엔드 2명</p>
+      <p>프로그래머스 데브코스에서 진행한 팀 프로젝트 입니다.</p>
+      <p>기간 : 2022.05 ~ 2022.06</p>
+      <p>팀 구성 : 프론트엔드 5명</p>
     </div>
   )
 }
