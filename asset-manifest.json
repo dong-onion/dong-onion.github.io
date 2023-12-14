@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85126f9b.css",
-    "main.js": "/static/js/main.2f8e5e2e.js",
+    "main.js": "/static/js/main.97865a17.js",
     "static/media/linkbookServiceImg3.png": "/static/media/linkbookServiceImg3.505dd2d4350333e53cbd.png",
     "static/media/linkbookServiceImg4.png": "/static/media/linkbookServiceImg4.b4c0e622bb0be7f23a32.png",
     "static/media/pacemakerServiceImg2.png": "/static/media/pacemakerServiceImg2.c41cc3d2ee71205a0631.png",
@@ -38,10 +38,10 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
     "main.85126f9b.css.map": "/static/css/main.85126f9b.css.map",
-    "main.2f8e5e2e.js.map": "/static/js/main.2f8e5e2e.js.map"
+    "main.97865a17.js.map": "/static/js/main.97865a17.js.map"
   },
   "entrypoints": [
     "static/css/main.85126f9b.css",
-    "static/js/main.2f8e5e2e.js"
+    "static/js/main.97865a17.js"
   ]
 }
