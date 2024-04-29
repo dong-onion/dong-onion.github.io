@@ -40,7 +40,6 @@ body {
   box-sizing: border-box;
   max-width: 1410px;
 }
-
 .custom-btn {
   border-color: var(--clr-primary-3);
   background-color: var(--clr-primary-3);

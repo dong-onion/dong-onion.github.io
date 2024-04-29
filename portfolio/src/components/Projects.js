@@ -1,6 +1,5 @@
 import React from 'react'
 import data from '../data.js'
-
 import Project from './Project.js'
 
 const Projects = () => {

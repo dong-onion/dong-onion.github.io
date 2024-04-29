@@ -1,5 +1,4 @@
 import React from 'react'
-import './LinkBook.css'
 
 const LinkBook = () => {
   const imageFiles = Array.from(
@@ -13,7 +12,12 @@ const LinkBook = () => {
         <h1>📘 링북</h1>
         <p>
           👉 Landing Page URL (현재는 서버가 중단된 상태입니다) :{' '}
-          <a className="link" target="_blank" href="https://linkbook.tk/">
+          <a
+            className="link"
+            target="_blank"
+            href="https://linkbook.tk/"
+            rel="noreferrer"
+          >
             https://linkbook.tk/
           </a>
         </p>
@@ -23,6 +27,7 @@ const LinkBook = () => {
             className="link"
             target="_blank"
             href="https://github.com/dong-onion/LinkBook"
+            rel="noreferrer"
           >
             https://github.com/dong-onion/LinkBook
           </a>
@@ -43,30 +48,41 @@ const LinkBook = () => {
           Typescript Next.js Styled-Component Chrome api Context api
         </p>
       </div>
-      <h2>🧑‍💻 개발 내용</h2>
+      <h2>🧑‍💻 구현 과정</h2>
       <h3>1. 폴더리스트 페이지</h3>
       <p>
-        유저가 원하는 태그 및 인기순, 최신순 등으로 폴더리스트 나열 및 데이터
-        바인딩
+        최신순, 인기순, 오래된등의 필터링에 따른 북마크 리스트들을 정렬해서
+        보여주는 페이지 입니다.
       </p>
-      <p>페이지네이션 구현</p>
-      <h3>2. 공통 컴포넌트</h3>
-      <p>카드, 버튼, 프로필, 스켈레톤 등의 공통 컴포넌트 마크업</p>
-      <p>React Query를 사용한 상태관리</p>
-      <h3>3. 로그인(Extension)</h3>
       <p>
-        웹사이트와의 로그인 연동을 위해 chrome api를 통해 브라우저 쿠키에
-        접근하여 쿠키의 토큰을 읽기 및 저장기능 구현
+        필터링옵션의 변경에 따라 api 요청을 보내 북마크 리스트들을 보여줍니다.
       </p>
+      <p>페이지네이션을 통해 북마크 리스트들을 보여주도록 구현했습니다.</p>
+      <h3>2. 공통 컴포넌트</h3>
+      <p>
+        카드, 버튼, 프로필, 스켈레톤 등의 공통 컴포넌트 마크업을 진행했습니다.
+      </p>
+      <h3>3. 로그인(Extension)</h3>
+      <p>크롬익스텐션으로 로그인하는 기능을 구현했습니다.</p>
       <p>
         refresh token과 access token을 분리하여, expire time이 지나면 refresh
-        token을 이용해서 access token을 재발급
+        token을 이용해서 access token을 재발급 하는 방식으로 access token을
+        이용한 자동 로그인을 구현 했습니다.
       </p>
-      <p>로그인 요청에 대한 응답으로 refresh token을 받아서 cookie에 저장</p>
+      <p>
+        로그인 검증은 react-hook-form을 사용했으며, 좋은 사용자 경험을 고려하여
+        익스텐션에서 로그인하면 브라우저에서도 자동 로그인이 가능하도록
+        구현했습니다.
+      </p>
       <h3>4. 북마크 및 북마크 폴더 생성</h3>
-      <p>api를 통해 크롬 익스텐션에서 북마크와 북마크 폴더 생성 기능 구현</p>
-      <p>chrome api 를 통해 현재 페이지 url을 api를 통해 서버에 전달</p>
-      <p>context api를 활용해 북마크정보 전역상태관리</p>
+      <p>
+        현재 유저가 방문하고 있는 페이지 URL를 가져오기 위해 chrome api를
+        사용했습니다.
+      </p>
+      <p>
+        가져온 URL을 활용하여 api를 호출하여 북마크및 북마크 폴더를 생성하는
+        기능을 구현했습니다.
+      </p>
       <h2>📷 서비스 화면</h2>
       <div
         style={{
@@ -79,6 +95,7 @@ const LinkBook = () => {
             key={i}
             style={{ maxWidth: 800, padding: '10px 10px' }}
             src={require(`../assets/linkbookImages/${fileName}`)}
+            alt="linkbookServiceImg"
           />
         ))}
       </div>
@@ -88,6 +105,7 @@ const LinkBook = () => {
             key={i}
             style={{ maxWidth: 400, padding: '10px 10px' }}
             src={require(`../assets/linkbookImages/${fileName}`)}
+            alt="linkbookServiceImg"
           />
         ))}
       </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import './HealthTrainer.css'
 
 const HealthTrainer = () => {
   const imageFiles = Array.from(
@@ -17,6 +16,7 @@ const HealthTrainer = () => {
             className="link"
             target="_blank"
             href="https://github.com/dong-onion/HT-Frontend"
+            rel="noreferrer"
           >
             https://github.com/dong-onion/HT-Frontend
           </a>

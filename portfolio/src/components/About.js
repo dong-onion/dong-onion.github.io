@@ -9,25 +9,37 @@ const About = () => {
     >
       <p className="text-center lead m-4">
         안녕하세요! 프론트엔드 개발자 김동언입니다. <br /> 사람들이 많이 쓰는
-        제품을 만들고 싶다는 꿈을 갖고 웹 개발을 시작했습니다. <br />
+        제품을 만들고 싶다는 꿈을 갖고 개발을 시작했습니다. <br />
         좋은 코드를 고민하는 것과 문제를 해결하는 것을 좋아합니다.
         <br />
       </p>
-      <a
-        style={{ textDecoration: 'none', fontStyle: 'italic' }}
-        href="https://github.com/dong-onion"
-        target="_blank"
-      >
-        Github : https://github.com/dong-onion
-      </a>
       <div style={{ marginTop: 20, display: 'flex', whiteSpace: 'pre-wrap' }}>
+        <p style={{ color: '#2b7060' }}>Github : {''}</p>
+        <a
+          style={{ textDecoration: 'none', fontStyle: 'italic' }}
+          href="https://github.com/dong-onion"
+          target="_blank"
+          rel="noreferrer"
+        >
+          https://github.com/dong-onion
+        </a>
+      </div>
+
+      <div style={{ display: 'flex', whiteSpace: 'pre-wrap' }}>
         <p style={{ color: '#2b7060' }}>Email : {''}</p>
         <p>dong.onionion@gmail.com</p>
       </div>
 
       <div style={{ display: 'flex', whiteSpace: 'pre-wrap' }}>
-        <p style={{ color: '#2b7060' }}>Education : {''}</p>
-        <p>프로그래머스 데브코스 프론트엔드 과정 수료</p>
+        <p style={{ color: '#2b7060' }}>blog : {''}</p>
+        <a
+          style={{ textDecoration: 'none', fontStyle: 'italic' }}
+          href="https://velog.io/@dong_eon_/posts"
+          target="_blank"
+          rel="noreferrer"
+        >
+          https://velog.io/@dong_eon_
+        </a>
       </div>
 
       <h3 className="pt-5 pb-2 custom-color">Languages and tools I use:</h3>

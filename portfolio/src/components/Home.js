@@ -1,7 +1,7 @@
 import React from 'react'
 import About from './About'
 import Projects from './Projects'
-import profileImg from '../assets/portfolioImages/profile.jpeg'
+import profileImg from '../assets/portfolioImages/profile.jpg'
 import './Home.css'
 
 const Home = () => {
