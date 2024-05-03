@@ -1,13 +1,20 @@
 import React from 'react'
 import ScreenHeader from './ScreenHeader'
 import './ProjectDetail.css'
+import { IMAGE_INFO } from '../constants'
 
 const ProjectDetail = ({ data }) => {
-  console.log(data.troubleShooting[0].title)
+  console.log(IMAGE_INFO[data.title.split(' ')[1]])
+  const {
+    src: projectSrc,
+    length,
+    width: imgWidth,
+  } = IMAGE_INFO[data.title.split(' ')[1]]
   const imageFiles = Array.from(
-    { length: 8 },
-    (_, index) => `pacemakerServiceImg${index + 1}.png`
+    { length },
+    (_, index) => `${projectSrc}${index + 1}.png`
   )
+
   return (
     <div className="container-fluid bg-light p-5 min-vh-100">
       <h1>{data.title}</h1>
@@ -30,8 +37,8 @@ const ProjectDetail = ({ data }) => {
           <div>
             <ScreenHeader content={element.title} />
             <ul>
-              {element.content.map((content) => (
-                <li>{content}</li>
+              {element.content.map((content, i) => (
+                <li key={i}>{content}</li>
               ))}
             </ul>
           </div>
@@ -74,9 +81,9 @@ const ProjectDetail = ({ data }) => {
         {imageFiles.map((fileName, i) => (
           <img
             key={i}
-            alt="pacemakerServiceImg"
-            style={{ maxWidth: 200, padding: '10px 10px' }}
-            src={require(`../assets/pacemakerImages/${fileName}`)}
+            alt="serviceImg"
+            style={{ maxWidth: imgWidth, padding: '10px 10px' }}
+            src={require(`../assets/${fileName}`)}
           />
         ))}
       </div>

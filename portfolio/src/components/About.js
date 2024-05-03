@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <div style={{ display: 'flex', whiteSpace: 'pre-wrap' }}>
-        <p style={{ color: '#2b7060' }}>blog : {''}</p>
+        <p style={{ color: '#2b7060' }}>Algorithm blog : {''}</p>
         <a
           style={{ textDecoration: 'none', fontStyle: 'italic' }}
           href="https://velog.io/@dong_eon_/posts"
