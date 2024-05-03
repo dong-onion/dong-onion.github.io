@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5fc4144.css",
-    "main.js": "/static/js/main.05dc185a.js",
+    "main.css": "/static/css/main.b389bdca.css",
+    "main.js": "/static/js/main.dc3e5e98.js",
     "static/media/pacemakerServiceImg6.png": "/static/media/pacemakerServiceImg6.f0609c72f28fbfc73186.png",
+    "static/media/profile.jpg": "/static/media/profile.614570547ae82d099be7.jpg",
+    "static/media/pacemakerServiceImg3.png": "/static/media/pacemakerServiceImg3.d1688828db04e679f35f.png",
+    "static/media/pacemakerServiceImg7.png": "/static/media/pacemakerServiceImg7.59430f04dd5dcef7c753.png",
+    "static/media/linkbookKeyboard.png": "/static/media/linkbookKeyboard.c3948eac63b7601d6779.png",
     "static/media/linkbookServiceImg3.png": "/static/media/linkbookServiceImg3.505dd2d4350333e53cbd.png",
     "static/media/pacemakerServiceImg8.png": "/static/media/pacemakerServiceImg8.f0c9ad4cab4ec6372603.png",
     "static/media/linkbookServiceImg4.png": "/static/media/linkbookServiceImg4.b4c0e622bb0be7f23a32.png",
-    "static/media/pacemakerServiceImg2.png": "/static/media/pacemakerServiceImg2.c41cc3d2ee71205a0631.png",
     "static/media/linkbookServiceImg5.png": "/static/media/linkbookServiceImg5.5786f152510503c839f6.png",
     "static/media/gamebuHeaderImage.png": "/static/media/gamebuHeaderImage.fbe5f7b843ad840f569c.png",
-    "static/media/pacemakerServiceImg7.png": "/static/media/pacemakerServiceImg7.b5e8a3ad9a5f04af3df4.png",
     "static/media/linkbookServiceImg2.png": "/static/media/linkbookServiceImg2.5f3bec480c434a5166c5.png",
-    "static/media/pacemakerServiceImg3.png": "/static/media/pacemakerServiceImg3.2866f693635cf952750a.png",
     "static/media/pacemakerHeaderImage.png": "/static/media/pacemakerHeaderImage.a0c28f7bcd06b6d56dd5.png",
     "static/media/linkbookServiceImg6.png": "/static/media/linkbookServiceImg6.c485cb14f29e7a761181.png",
     "static/media/pacemakerServiceImg4.png": "/static/media/pacemakerServiceImg4.9b7ebd43e63493dac2dd.png",
+    "static/media/pacemakerServiceImg1.png": "/static/media/pacemakerServiceImg1.5ab91a474ce02d7e00c2.png",
     "static/media/pacemakerServiceImg5.png": "/static/media/pacemakerServiceImg5.00ad3752c656830792b9.png",
+    "static/media/pacemakerServiceImg2.png": "/static/media/pacemakerServiceImg2.745fd85276ef9719bfda.png",
     "static/media/healthtrainerServiceImg2.png": "/static/media/healthtrainerServiceImg2.c1f3d244d6f6595aa74d.png",
     "static/media/healthtrainerServiceImg1.png": "/static/media/healthtrainerServiceImg1.8a0bb651fa11d1f26d02.png",
     "static/media/gamebuServiceImg6.png": "/static/media/gamebuServiceImg6.c97123eabfebbf758271.png",
@@ -23,8 +26,8 @@
     "static/media/healthtrainerServiceImg4.png": "/static/media/healthtrainerServiceImg4.f800b55ebbb24d8ca9ce.png",
     "static/media/healthtrainerServiceImg3.png": "/static/media/healthtrainerServiceImg3.47ba18ec6b046de347ba.png",
     "static/media/profile.jpeg": "/static/media/profile.4ae6f02fa51d1e34f1f3.jpeg",
-    "static/media/pacemakerServiceImg1.png": "/static/media/pacemakerServiceImg1.b5fa512b4a26a86e4ad0.png",
     "static/media/gamebuServiceImg4.png": "/static/media/gamebuServiceImg4.4992ceca2fe662619c54.png",
+    "static/media/siddhesh_resume.pdf": "/static/media/siddhesh_resume.aaef50daf716c3fc71a6.pdf",
     "static/media/linkbookServiceImg8.png": "/static/media/linkbookServiceImg8.7f79697aa59e576038af.png",
     "static/media/gamebuServiceImg1.png": "/static/media/gamebuServiceImg1.02df2013e73f118c2548.png",
     "static/media/linkbookServiceImg7.png": "/static/media/linkbookServiceImg7.4803aa8e80697042f631.png",
@@ -38,11 +41,11 @@
     "static/media/reactQuery.png": "/static/media/reactQuery.90f4864355d5b17c85de.png",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
-    "main.e5fc4144.css.map": "/static/css/main.e5fc4144.css.map",
-    "main.05dc185a.js.map": "/static/js/main.05dc185a.js.map"
+    "main.b389bdca.css.map": "/static/css/main.b389bdca.css.map",
+    "main.dc3e5e98.js.map": "/static/js/main.dc3e5e98.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5fc4144.css",
-    "static/js/main.05dc185a.js"
+    "static/css/main.b389bdca.css",
+    "static/js/main.dc3e5e98.js"
   ]
 }
