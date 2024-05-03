@@ -2,13 +2,7 @@ import SharedLayout from './components/SharedLayout'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
-import {
-  Routes,
-  Route,
-  Navigate,
-  HashRouter,
-  BrowserRouter,
-} from 'react-router-dom'
+import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 import ProjectDetail from './components/ProjectDetail'
 import { pacemakerData, linkbookData } from './projectDetail'

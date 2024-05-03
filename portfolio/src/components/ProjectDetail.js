@@ -63,6 +63,28 @@ const ProjectDetail = ({ data }) => {
             {element.approach.map((content) => (
               <div className="content">{content}</div>
             ))}
+            {element.title === '정확한 타이머 구현 이슈' && (
+              <div
+                style={{
+                  display: 'flex',
+                  gap: 20,
+                  flexWrap: 'wrap',
+                  marginTop: 20,
+                  marginBottom: 20,
+                }}
+              >
+                <img
+                  alt="타이머 구현 이미지"
+                  src={require('../assets/pacemakerImages/prevTimerCode.png')}
+                  style={{ width: 400 }}
+                />
+                <img
+                  alt="타이머 구현 이미지"
+                  src={require('../assets/pacemakerImages/nextTimerCode.png')}
+                  style={{ width: 400 }}
+                />
+              </div>
+            )}
             <h5>🔍 알게된 점</h5>
             {element.wil.map((content) => (
               <div className="content">{content}</div>
