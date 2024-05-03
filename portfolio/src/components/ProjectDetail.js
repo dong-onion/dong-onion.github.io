@@ -4,7 +4,6 @@ import './ProjectDetail.css'
 import { IMAGE_INFO } from '../constants'
 
 const ProjectDetail = ({ data }) => {
-  console.log(IMAGE_INFO[data.title.split(' ')[1]])
   const {
     src: projectSrc,
     length,

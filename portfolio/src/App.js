@@ -2,7 +2,13 @@ import SharedLayout from './components/SharedLayout'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
-import { Routes, Route, Navigate, HashRouter } from 'react-router-dom'
+import {
+  Routes,
+  Route,
+  Navigate,
+  HashRouter,
+  BrowserRouter,
+} from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 import ProjectDetail from './components/ProjectDetail'
 import { pacemakerData, linkbookData } from './projectDetail'
@@ -10,7 +16,7 @@ import { pacemakerData, linkbookData } from './projectDetail'
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<SharedLayout />}>
@@ -28,7 +34,7 @@ function App() {
             <Route path="/*" element={<Navigate to="/"></Navigate>}></Route>
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
