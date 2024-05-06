@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b389bdca.css",
-    "main.js": "/static/js/main.a5f8d4c4.js",
+    "main.js": "/static/js/main.7282418d.js",
     "static/media/pacemakerServiceImg6.png": "/static/media/pacemakerServiceImg6.f0609c72f28fbfc73186.png",
     "static/media/profile.jpg": "/static/media/profile.614570547ae82d099be7.jpg",
     "static/media/pacemakerServiceImg3.png": "/static/media/pacemakerServiceImg3.d1688828db04e679f35f.png",
@@ -19,9 +19,9 @@
     "static/media/pacemakerServiceImg1.png": "/static/media/pacemakerServiceImg1.5ab91a474ce02d7e00c2.png",
     "static/media/pacemakerServiceImg5.png": "/static/media/pacemakerServiceImg5.00ad3752c656830792b9.png",
     "static/media/pacemakerServiceImg2.png": "/static/media/pacemakerServiceImg2.745fd85276ef9719bfda.png",
-    "static/media/nextTimerCode.png": "/static/media/nextTimerCode.5381d1c8061d1ce5ea39.png",
     "static/media/healthtrainerServiceImg2.png": "/static/media/healthtrainerServiceImg2.c1f3d244d6f6595aa74d.png",
     "static/media/healthtrainerServiceImg1.png": "/static/media/healthtrainerServiceImg1.8a0bb651fa11d1f26d02.png",
+    "static/media/nextTimerCode.png": "/static/media/nextTimerCode.cd10a486c7c5eb4546b4.png",
     "static/media/gamebuServiceImg6.png": "/static/media/gamebuServiceImg6.c97123eabfebbf758271.png",
     "static/media/linkbookServiceImg1.png": "/static/media/linkbookServiceImg1.21d1b33a4b9830bb6077.png",
     "static/media/healthtrainerServiceImg4.png": "/static/media/healthtrainerServiceImg4.f800b55ebbb24d8ca9ce.png",
@@ -44,10 +44,10 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
     "main.b389bdca.css.map": "/static/css/main.b389bdca.css.map",
-    "main.a5f8d4c4.js.map": "/static/js/main.a5f8d4c4.js.map"
+    "main.7282418d.js.map": "/static/js/main.7282418d.js.map"
   },
   "entrypoints": [
     "static/css/main.b389bdca.css",
-    "static/js/main.a5f8d4c4.js"
+    "static/js/main.7282418d.js"
   ]
 }
